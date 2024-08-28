@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>GC Transporte</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="div-header">
+                <div>
+                    <h1>GC TRANSPORTE</h1>
+                </div>
+                <div class="div-sections" id="div-sections">   
+                    <a href="#home"><h1 class="sections-text" onclick="clickSection()">HOME</h1></a>
+                    <a href="#services"><h1 class="sections-text" onclick="clickSection()">SERVIÇOS</h1></a>
+                    <a href="#us"><h1 class="sections-text" onclick="clickSection()">SOBRE NÓS</h1></a>
+                    <a href="#contact"><h1 class="sections-text" onclick="clickSection()">CONTATO</h1></a>
+                </div>
+                <div class="interactive-menu">
+                    <h3 class="bi bi-list" id="menu-icon" style="font-size: 28px;" onclick="openMenu()"></h3>
+                    <h3 class="bi bi-x-lg off" id="close-icon" style="font-size: 28px;" onclick="openMenu()"></h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="div-background" id="home">
+            <div class="background-content">
+                <h1 class="text-content">SOLUÇÕES DE LOGÍSTICA E TRANSPORTE 100% MAIS RÁPIDAS</h1>
+                <div class="budget">
+                    <a href="#contact"><h1 class="budget-text">ORÇAMENTO</h1></a>
+                    <a href="#contact"><i class="bi bi-arrow-right budget-arrow"></i></a>
+                </div> 
+            </div>
+        </div>
+
+        <div class="div-services" id="services">
+            <h1 class="service-subtitle">- O QUE NÓS FAZEMOS -</h1>
+            <h1 class="service-title">OFERECEMOS UM SERVIÇO DE FRETE ECONÔMICO E SEGURO</h1>
+            <div class="services-content">
+                <div class="services road-services">
+                    <div class="nav-services">
+                        <h1 class="text-services">FRETE TERRESTRE</h1>
+                        <i class="bi bi-arrow-up-right services-arrow"></i>
+                    </div>
+                </div>
+                <div class="services air-services">
+                    <div class="nav-services">
+                        <h1 class="text-services">FRETE AÉREO</h1>
+                        <i class="bi bi-arrow-up-right services-arrow"></i>
+                    </div>
+                </div>
+                <div class="services water-services">
+                    <div class="nav-services">
+                        <h1 class="text-services">FRETE MARITIMO</h1>
+                        <i class="bi bi-arrow-up-right services-arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="storage-container" id="us">
+            <div class="div-storage">
+                <img src="img/storage.jpg" class="img-storage">
+                <div>
+                    <h1 class="us-title">- QUEM SOMOS NÓS?</h1>
+                    <h1 class="us-subtitle">SOMOS UMA EMPRESA LÍDER GLOBAL EM LOGÍSTICA E TRANSPORTE</h1>
+                    <h4 class="us-description">Com mais de quatro décadas de experiência no fornecimento de soluções para empresas de grande porte em todo o mundo, oferecemos logística ponta a ponta, adaptada para mercados específicos e soluções para larga escala.</h4>
+                    <div class="us-topics">
+                        <i class="bi bi-check us-check"></i>
+                        <h4 class="topics-description">Acompanhamos projetos e desenvolvemos soluções proativamente</h4>
+                    </div>
+                    <div class="us-topics">
+                        <i class="bi bi-check us-check"></i>
+                        <h4 class="topics-description">Tecnologias e práticas inovadoras para garantir eficiência e precisão</h4>
+                    </div>
+                    <div class="us-topics">
+                        <i class="bi bi-check us-check"></i>
+                        <h4 class="topics-description">Foco em eficiência operacional, otimizando processos e reduzindo custos</h4>
+                    </div>
+                    <div class="us-topics">
+                        <i class="bi bi-check us-check"></i>
+                        <h4 class="topics-description">Centros de distribuição estrategicamente localizados</h4>
+                    </div>
+                    <div class="us-topics">
+                        <i class="bi bi-check us-check"></i>
+                        <h4 class="topics-description">Atendimento personalizado e suporte 24/7</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-status">
+            <div class="div-status">
+                <div class="status-items">
+                    <i class="bi bi-truck status-icon"></i>
+                    <div>
+                        <h1>25+</h1>
+                        <h4>ANOS DE EXPERIÊNCIA</h4>
+                    </div>
+                </div>
+                <div class="status-items">
+                    <i class="bi bi-globe-americas status-icon"></i>
+                    <div>
+                        <h1>80+</h1>
+                        <h4>PAÍSES ATENDIDOS</h4>
+                    </div>
+                </div>
+                <div class="status-items">
+                    <i class="bi bi-people-fill status-icon"></i>
+                    <div>
+                        <h1>7K+</h1>
+                        <h4>EMPREGADOS CONTRATADOS</h4>
+                    </div>
+                </div>
+                <div class="status-items">
+                    <i class="bi bi-box-seam status-icon"></i>
+                    <div>
+                        <h1>100K+</h1>
+                        <h4 class="text-status">ENTREGAS REALIZADAS</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="budget-div" id="contact">
+            <h1 class="budget-title">FAÇA SEU ORÇAMENTO!</h1>
+            <div class="div-form">
+                <input type="text" class="input-name" placeholder="Nome">
+                <div class="form-sections">
+                    <input type="text" class="input-sections" placeholder="Celular">
+                    <input type="text" class="input-sections" placeholder="Email">
+                </div>
+                <div class="form-sections">
+                    <input type="text" class="input-sections" placeholder="Tipo de entrega">
+                    <input type="text" class="input-sections" placeholder="Forma de carregamento">
+                </div>
+                <div class="form-sections">
+                    <input type="text" class="input-sections" placeholder="Cidade">
+                    <input type="text" class="input-sections" placeholder="Estado">
+                </div>
+                <div class="div-submit">
+                    <h1 class="submit-text">PEDIR ORÇAMENTO</h1>
+                    <i class="bi bi-arrow-right submit-arrow"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div-footer">
+            <h4>&copy; Copyright 2024 - All rights reserved</h4>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
