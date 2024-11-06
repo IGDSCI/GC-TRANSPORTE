@@ -501,4 +501,62 @@ a{
         background-color: #d8d9db;
         height: 550px;
     }
+
+    .background-content{
+        width: 300px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .text-content {
+        width: 300px;
+        font-size: 2rem;
+    }
+
+    .div-storage{
+        display: flex;
+        width: 1500px;
+        gap: 3rem;
+    }
+
+    .us-subtitle{
+        width: 300px;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .us-title{
+        color: #DF1119;
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+        width: 300px;
+    }
+
+    .us-description{
+        width: 300px;
+        font-weight: 500;
+        padding-bottom: 1rem;
+    }
+
+    .topics-description{
+        font-weight: 500;
+        padding-bottom: 1rem;
+        padding: 0;
+        width: 300px;
+    }
+
+    .div-status{
+        width: 300px;
+        display: grid;
+        grid-template-columns: 320px;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .div-background{
+        justify-content: flex-start;
+    }
 }
